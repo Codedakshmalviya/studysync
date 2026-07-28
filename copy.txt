@@ -1,0 +1,163 @@
+  <div class="card-container">
+      <div class="card-box">
+        <h1 class="card-heading">Our competitive advantage</h1>
+        <span class="para-span"
+          >This is a section of some simple filter text,also known as
+          placeholder text,it shaares some characteristics of real written text
+          but is random or otherwise generated.
+        </span>
+        <div class="card-grid">
+          <div class="item" id="codeone">
+            <div class="logo-g">
+              <img src="bulb-image.png" alt="bulb" class="img-b" />
+            </div>
+            <h3 class="text-grid">Personalized Learning</h3>
+            <span class="para-grid"
+              >Offer tailored learning experiences through AI and machine
+              learning to cater to individual student needs
+            </span>
+          </div>
+          <div class="item" id="codetwo">
+            <div class="logo-g">
+              <img src="money-logo.png" alt="money" class="img" />
+            </div>
+            <h3 class="text-grid">Affordability</h3>
+            <span class="para-grid"
+              >Provide high-quality education at an affordable price
+              point,making it accessible to a broader audience.
+            </span>
+          </div>
+          <div class="item" id="codethree">
+            <div class="logo-g">
+              <img src="relationship-logo.png" alt="relation" class="img" />
+            </div>
+            <h3 class="text-grid">Industry Partnerships</h3>
+            <span class="para-grid"
+              >Collaborate with well-known companies and institutions to offer
+              accredited courses and certification,adding credibility to your
+              offerings.
+            </span>
+          </div>
+          <div class="item" id="codefour">
+            <div class="logo-g">
+              <img src="innovation.jpg" alt="innovation" class="img" />
+            </div>
+            <h3 class="text-grid">Innovative Technology</h3>
+            <span class="para-grid"
+              >Utilize cutting-edge Technology,such as augmented reality to
+              create immersive learning experiences.
+            </span>
+          </div>
+          <div class="item" id="codefive">
+            <div class="logo-g">
+              <img src="call-logo.png" alt="calling" class="img" />
+            </div>
+            <h3 class="text-grid">Responsive Support</h3>
+            <span class="para-grid"
+              >Provide exceptional customer and assistance to students and
+              educators.</span
+            >
+          </div>
+          <div class="item" id="codesix">
+            <div class="logo-g">
+              <img src="analytics.jpg" alt="analytics" class="img" />
+            </div>
+            <h3 class="text-grid">Analytics and insights</h3>
+            <span class="para-grid"
+              >Offer detailed progress tracking and analytics to help students
+              and teachers monitors performance and make data-driven decision.
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    .img {
+  width: 2rem;
+  height: 2rem;
+}
+.card-box {
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.6rem;
+}
+.para-span {
+  font-size: 0.7rem;
+  color: #718096;
+}
+.card-grid {
+  max-width: 600px;
+  /* height: 600px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 635px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+  }
+}
+.item {
+  /* width: 250px; */
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.9rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+.logo-g {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+.img-b {
+  width: 2rem;
+  height: 2.1rem;
+}
+#codeone {
+  background-color: #2563eb;
+}
+#codetwo {
+  background-color: rgb(236, 21, 171);
+}
+#codethree {
+  background-color: rgb(246, 180, 14);
+}
+#codefour {
+  background-color: rgb(49, 181, 233);
+}
+#codefive {
+  background-color: rgb(69, 208, 69);
+}
+#codesix {
+  background-color: rgb(100, 81, 222);
+}
+.text-grid {
+  font-size: 1rem;
+  color: var(--background-color);
+}
+.para-grid {
+  font-size: 0.8rem;
+  color: var(--background-color);
+}
+.card-container {
+  padding: 1rem;
+  background-color: var(--light-gray);
+}
+
+
+Note : This is my first project in the world of web dev in which I got a chance to learn how web pages are created this is not so easy 
+but I really learn a lot from this project study sync by best in this game love babbar bhaiya 
