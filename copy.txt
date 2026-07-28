@@ -158,6 +158,4 @@
   background-color: var(--light-gray);
 }
 
-
-Note : This is my first project in the world of web dev in which I got a chance to learn how web pages are created this is not so easy 
-but I really learn a lot from this project study sync by best in this game love babbar bhaiya 
+studysync
